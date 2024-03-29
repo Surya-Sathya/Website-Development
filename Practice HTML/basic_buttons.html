@@ -1,0 +1,94 @@
+<style>
+    .redditlink{
+      color: rgb(56, 56, 255)
+    }
+  
+    .redditlink:hover {
+      color: rgba(56, 56, 255, 0.6)
+    }
+  
+    .mechPencil{
+      font-size: 25px;
+      font-weight: 700;
+    }
+  
+    .addtoCart {
+      border: none;
+      background-color: rgb(255,216,20);
+      height: 20px;
+      border-radius: 10px;
+      width: 96px;
+      cursor: pointer;
+      font-weight: 720;
+      transition: opacity 0.15s;
+    }
+  
+    .buyNow {
+      border: none;
+      background-color: rgb(255,164,28);
+      height: 20px;
+      border-radius: 10px;
+      width: 88px;
+      cursor: pointer;
+      font-weight: 720;
+    }
+  
+    /* pseudo class - adds extra styles when we hover*/
+    .addtoCart:hover {
+      background-color: rgb(230, 194, 15);
+      opacity: 0.8;
+    }
+  
+    .buyNow:hover {
+      opacity: 0.8;
+    }
+  
+    .buyNow:active {
+      opacity: 0.5;
+    }
+  
+    .addtoCart:active {
+      opacity: 0.5;
+    }
+  
+    .togaRoulette {
+      color: green;
+      font-weight: 600;
+    }
+  </style>
+  
+  
+  <!-- this is the html tag: opening tag and closing tag -->
+  <button>
+    Road to 3,000,000%
+  </button>
+  
+  <p></p>
+  
+  <!-- this is an anchor element -->
+  <a href="https://www.reddit.com/r/mechanicalpencils/" target="_blank" class = redditLink>
+    Link to r/MechanicalPencils using href - an attribute - modifies how a link element behaves
+  </a> 
+  <!-- href is attribute name and attribute value is left side -->
+  
+  <p class=mechPencil>
+    Kuro Toga Advance Mechancial Pencil
+  </p> 
+  
+  <p class="togaRoulette">
+    Kuro Togo Roulette for only $14.58 on Amazon
+  </p>
+  
+  <p>
+    On Sale Now
+  </p>
+  
+  <button class="addtoCart">
+    Add to Cart
+  </button>
+  
+  <button class="buyNow">
+    Buy now
+  </button>
+  
+  
