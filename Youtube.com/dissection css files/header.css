@@ -1,0 +1,81 @@
+.flexbox {
+  display: flex;
+  height: 48px;
+}
+
+.searchBar {
+  font-family: "Inconsolata", monospace;
+  background-color: rgb(32, 36, 37); /* Dark background color */
+  color: white; /* Text color */
+  border: none;
+  padding: 10px;
+  width: 200px; /* Initial width */
+  transition: width 0.3s ease-in-out; /* Smooth transition for width change */
+}
+
+.searchBar:focus {
+  width: 300px; /* Expanded width on focus */
+}
+  
+.menuButtonsleft {
+  background-color: rgb(211, 156, 164);
+  width: 220px;
+  height: 100%;
+  text-align: center;
+  display: flex; /* Add display flex to center text */
+  align-items: center; /* Vertically center text */
+  justify-content: center; /* Horizontally center text */
+  transition: 
+    opacity 0.15s,
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.menuButtonsleft:hover {
+  background-color: white;
+  color: rgb(211, 156, 164);
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.menuButtonsleft:active {
+  opacity: 0.67;
+  cursor: pointer;
+}
+
+.middlesection {
+  background-color: rgb(24, 26, 26);
+  width: 200px;
+  height: 100%;
+  flex: 1;
+  text-align: center;
+  display: flex; /* Add display flex to center text */
+  align-items: center; /* Vertically center text */
+  justify-content: center; /* Horizontally center text */
+}
+
+.menuButtonsright {
+  background-color: rgb(152, 190, 202);
+  width: 400px;
+  height: 100%;
+  text-align: center;
+  display: flex; /* Add display flex to center text */
+  align-items: center; /* Vertically center text */
+  justify-content: center; /* Horizontally center text */
+  transition: 
+  opacity 0.15s,
+  background-color 0.15s,
+  color 0.15s;
+}
+
+.menuButtonsright:hover {
+  background-color: white;
+  color:rgb(152, 190, 202);
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.menuButtonsright:active {
+  opacity: 0.67;
+  cursor: pointer;
+}

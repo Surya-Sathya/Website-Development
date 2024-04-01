@@ -4,30 +4,30 @@ body {
 }
 
 .thumbnails {
-  width: 400px;
+  width: 300px;
   height: 150px;
-  border-radius: 17px;
+  border-radius: 19px;
   margin: 15px 12px 11px 0px;
   object-fit: contain;
   object-position: center;
   transition: width 0.25s, opacity 0.15s;
-  opacity: 1;
+  opacity: 0.7;
   display: inline-block;
   vertical-align: top;
 }
 
 .thumbnails:hover {
-  opacity: 0.37;
+  opacity: 0.9;
   cursor: pointer;
-  width: 405px;
+  width: 345px;
 }
 
-.thumbnails:active {
-  opacity: 0.28;
-}
+/* .thumbnails:active {
+  opacity: 1;
+} */
 
 .filmName {
-  color: rgb(106, 53, 156);
+  color: white;
   width: 300px;
   display: inline-block;
   margin-left: 9px;

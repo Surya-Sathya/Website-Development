@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(24, 26, 26);
+  font-family: "Inconsolata", monospace;
+  margin: 0 
+}
+
+.thumbnails {
+  width: 300px;
+  height: 150px;
+  border-radius: 19px;
+  margin: 15px 12px 11px 0px;
+  object-fit: contain;
+  object-position: center;
+  transition: width 0.25s, opacity 0.15s;
+  opacity: 0.7;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.thumbnails:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  width: 345px;
+}
+
+.thumbnails:active {
+  opacity: 1;
+}
+
+.filmName {
+  margin-top: 1px;
+  color: white;
+  width: 300px;
+  display: inline-block;
+  margin-left: 26px;
+}
+
+.movieTitlepair {
+  width: 300px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.searchBar {
+  display: block;
+  margin-bottom: 20px;
+}
+
+p {
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.vertfilmList {
+  display: inline-block;
+  justify-self: start;
+}
+
+
+
