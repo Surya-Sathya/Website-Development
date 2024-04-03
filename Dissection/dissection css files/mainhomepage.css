@@ -11,7 +11,6 @@
 
 a {
     text-decoration: none;
-    color: white
   }
 
   .navbarFlexboxLEFT {
@@ -49,7 +48,7 @@ a {
 }
 
 .navbarButtons:active {
-    opacity: 0.65; /*not working rn*/
+    opacity: 0.7; 
 }
 
 
