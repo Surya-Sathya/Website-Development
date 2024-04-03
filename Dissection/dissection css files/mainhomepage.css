@@ -1,55 +1,97 @@
 *,
 ::before
 ::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
   }
 
   .navbarFlexboxLEFT {
-    /* FLEXBOX */
-    display: flex;
-    justify-content: flex-start; /* along the main axis  horizontally*/
+  /* FLEXBOX */
+  display: flex;
+  justify-content: flex-start; /* along the main axis  horizontally*/
 }
 
 .navbarFlexboxRIGHT {
-    /* FLEXBOX */
-    display: flex;
-    justify-content: flex-end; /* along the main axis  horizontally*/
+  /* FLEXBOX */
+  display: flex;
+  justify-content: flex-end; /* along the main axis  horizontally*/
 }
 
 .navbarButtons {
-    font-size: 1.2rem;
-    color: white;
-    background-color:rgb(24, 26, 26) ;
+  font-size: 1.2rem;
+  color: white;
+  background-color:rgb(24, 26, 26) ;
 
     /* BOX MODEL */
-    padding: 4px 8px;
-    border: 0.01px solid rgb(148, 144, 144);
-    border-radius: 7.8px;
-    margin: 7px 4.5px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 23px;
-    transition: opacity 10s; /*not working rn*/
+  padding: 4px 8px;
+  border: 0.01px solid rgb(148, 144, 144);
+  border-radius: 7.8px;
+  margin: 7px 4.5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 23px;
+  transition: opacity 10s; /*not working rn*/
 }
 
 .navbarButtons:hover {
-    background-color: rgb(190, 138, 145);
-    opacity: 0.87; 
-    cursor: pointer;
+  background-color: rgb(190, 138, 145);
+  opacity: 0.87; 
+  cursor: pointer;
 }
 
 .navbarButtons:active {
-    opacity: 0.7; 
+  opacity: 0.7; 
 }
+
+
+.cat {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: block;
+  position: fixed; /* Keeps the cat centered regardless of scrolling */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dissectionText {
+  margin: 0 0 .5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+  color: white;
+  line-height: .8;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  border:1px solid rgb(148, 144, 144);
+  padding: 30px 40px;
+}
+
+.content {
+  top: 50%;
+  transform: translate(0,50%);
+  display: flex;
+  height: 250px; 
+  max-width: 400px;
+  padding: 30px 40px;
+  margin: auto; 
+  padding: 34px 60px;
+  box-shadow: 0 0 3em rgba(0,0,0,.15);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
