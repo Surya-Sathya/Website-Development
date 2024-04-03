@@ -1,0 +1,33 @@
+:root {
+    --gradientButton: linear-gradient(
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f
+    );
+  }
+  
+
+body {
+    background-image: var(--gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400%;
+    animation: bg-animation 5s infinite alternate;
+  }
+
+.navbarButtons:hover {
+    background-image: var(--gradientButton);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400%;
+    animation: bg-animation 5s infinite alternate;
+    opacity: 0.87; 
+    cursor: pointer;
+  }
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
