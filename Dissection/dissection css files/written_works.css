@@ -1,0 +1,36 @@
+:root {
+    --text-primary: #b6b6b6;
+    --text-secondary: #b6b6b6
+}
+
+.articletitlesFlexbox {
+    display: flex;
+    font-size: 96px;
+}
+
+.paraFlexbox {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.articleImages {
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block; 
+    margin: auto;
+}
+
+.subarticletitlesFlexbox {
+    display: flex;
+    font-size: 24px;
+}
+
+
+
+.main {
+    margin-left: 5rem;
+}
