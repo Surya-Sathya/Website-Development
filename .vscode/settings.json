@@ -55,5 +55,5 @@
         "sml": "cd $dir && sml $fileName",
         "mojo": "mojo run"
     },
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5502
 }
